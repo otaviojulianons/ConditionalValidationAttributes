@@ -8,6 +8,7 @@ Executa uma expressão lambda no formato de *string* para validação.
     public class UserModel
     {
         .  .  .
+        
         [Required(ErrorMessage = "Enter email password.")]
         public string Password { get; set; }
 
