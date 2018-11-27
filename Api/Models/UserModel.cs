@@ -25,8 +25,5 @@ namespace Api.Models
         [RequiredIf(nameof(Email), ValueExpected = null, ErrorMessage = "Enter Username.")]
         public string Username { get; set; }
 
-
-
-
     }
 }
