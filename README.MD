@@ -20,7 +20,7 @@ Executa uma expressão lambda no formato de *string* para validação.
 ```
 
 ## RequiredIf
-Executa a validação no campo informado verificando valor esperado.
+Obriga o preechimento da propriedade se a condição em questão for verdadeira.
 ```csharp
     public class UserModel
     {
